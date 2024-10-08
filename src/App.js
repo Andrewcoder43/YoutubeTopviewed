@@ -133,7 +133,7 @@ function App() {
 
   return (
     <div>
-      <h1>YouTube Video Viewer</h1>
+      <h1>YouTube Top Viewed</h1>
       <div>
         <label>
           Min Views:
