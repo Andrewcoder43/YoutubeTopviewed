@@ -3,7 +3,7 @@ import axios from 'axios';
 import debounce from 'lodash.debounce';
 import './App.css'; // Import the CSS file
 
-const API_KEY = 'AIzaSyCpwokDs7Vhp4CBGCUKhyFYyOeuhPstxEQ'; // Replace with your actual API key 
+const API_KEY = ' '; // Replace with your actual API key 
 
 function App() {
   const [videos, setVideos] = useState([]);
