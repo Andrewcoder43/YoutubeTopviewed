@@ -1,95 +1,83 @@
-# Getting Started with Create React App
+# YoutubeTopviewed
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The YoutubeTopviewed project can be found at https://andrewcoder43.github.io/YoutubeTopviewed/.
 
-## Available Scripts
+**How it works**
 
-In the project directory, you can run:
+You can filter by view count and by a range of dates.
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Description
 
-### `npm test`
+YoutubeTopviewed is a React-based web application that allows users to filter YouTube videos by view count and date range. This project utilizes Axios for making HTTP requests and provides a user-friendly interface for exploring top viewed videos.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+To get started with the YoutubeTopviewed project, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1.  **Clone the repository:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    git clone https://github.com/Andrewcoder43/YoutubeTopviewed.git
+    cd YoutubeTopviewed
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2.  **Install the dependencies:**
 
-### `npm run eject`
+    ```bash
+    npm install
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1.  **Start the application:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```bash
+    npm start
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    This command will start the development server, and the application will be accessible in your web browser at `http://localhost:3000`.
 
-## Learn More
+2.  **Build the application for production:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```bash
+    npm run build
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    This command will create an optimized build of the application in the `build` directory.
 
-### Code Splitting
+3.  **Deploy to GitHub Pages (optional):**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    ```bash
+    npm run deploy
+    ```
 
-### Analyzing the Bundle Size
+    This command will deploy the contents of the `build` directory to your GitHub Pages.  Ensure you have properly configured your repository for GitHub Pages.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Features
 
-### Making a Progressive Web App
+-   **Filter by View Count:** Allows users to filter YouTube videos based on their view count.
+-   **Filter by Date Range:** Enables users to specify a date range for filtering videos.
+-   **React-based UI:** Provides a responsive and user-friendly interface built with React.
+-   **Axios Integration:** Uses Axios for making efficient HTTP requests to fetch video data.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
+Contributions are welcome! Here's how you can contribute:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1.  Fork the repository.
+2.  Create a new branch for your feature or bug fix.
+3.  Make your changes and ensure they are well-tested.
+4.  Submit a pull request with a clear description of your changes.
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-
-
-
-
-
-
-A Reminder that this feature can find the Oldest YouTube videos ever.
-Discussion
-Want to find the oldest ever YouTube videos?
-
-Type "whatever you're looking for before:year(or date)" in the search field and have fun.
-
-Examples:
-
-Oldest videos about birds "birds before:2005"
-
-Oldest videos about animation "animation before:2005"
-
-Oldest videos about music "music before:2005"
-
-Etc.
-
-YouTube has some crumby features and stylistic tastes, but personally, I'm happy they still have this gem.
+This project is private and not open source.
